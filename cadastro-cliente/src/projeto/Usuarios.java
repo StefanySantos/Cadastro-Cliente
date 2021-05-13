@@ -31,16 +31,18 @@ public class Usuarios {
         
         usuario = new Informacoes();
         
-     //   usuario.setNome(nome);
-     //   usuario.setLogin(login);
-     //   usuario.setCargo(cargo);
+        usuario.setNome(nome);
+        usuario.setLogin(login);
+        usuario.setCargo(cargo);
         
         
         ArrayList<Informacoes> usuarios = new ArrayList<Informacoes>();
         
         usuarios.add(usuario);
         
-      //  System.out.println(usuario.getNome()+"\n"+usuario.getLogin()+"\n"+usuario.getCargo());
+//        System.out.println(usuario.getNome()+"\n"+usuario.getLogin()+"\n"+usuario.getCargo());
+        
+        teclado.close();
      }
 }
 
